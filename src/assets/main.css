@@ -1,0 +1,266 @@
+@import './base.css';
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color:white;
+}
+
+@media screen and (min-width: 1280px) {
+  #hamburger-nav {
+    display: none;
+  }
+}
+
+@media (width >= 320px) and (width <= 1280px) {
+  #navbar-menu {
+    display: none;
+  }
+
+  #hamburger-nav {
+    width: 100vw;
+    display: flex;
+  }
+
+  /* Navbar */
+  #hamburger-icon {
+    margin: 1.5rem 3rem 0rem 0rem;
+    height: 20px;
+    width: 25px;
+  }
+
+  /* Profile Section */
+
+  #container-profile-main {
+    flex-direction: column;
+  }
+
+  #container-pic {
+    margin-bottom: 5vh;
+  }
+  
+  #profile-pic {
+    width: fit-content;
+    height: 25vh;
+    margin-top: 0vh;
+    margin-right: 0vw;
+  }
+
+  #btn-contact {
+    height: 7vh;
+    width: 40vw;
+    text-align: center;
+  }
+
+  #container-social-links {
+    width: 65vw;
+  }
+
+  #social-list {
+    justify-content: space-evenly;
+  }
+
+  #social-pic {
+    width: fit-content;
+    height: 4vh;
+  }
+
+  /* About Section */
+  #section-about {
+    height: 115vh;
+    margin-top: 1rem;
+  }
+
+  #container-about-main {
+    flex-direction: column;
+    margin: 0rem;
+    margin-top: 2rem;
+  }
+
+  #about-picture {
+    width: fit-content;
+    height: 40vh;
+    margin-right: 0rem;
+  }
+
+  #container-about-main {
+    gap: 0.5rem;
+  }
+
+  #container-achievements {
+    margin-bottom: 1rem;
+  }
+
+  #container-education, #about-me-text {
+    widtH: 80vw;
+  }
+
+  #education-icon {
+    width: fit-content;
+    height: 4.5vh;
+  }
+
+  #about-me-text {
+    font-size: calc(0.55rem + 1vmin);
+  }
+
+  #container-arrow {
+    margin-top: 1rem;
+  }
+
+  /* Skills Section */
+  #section-skills {
+    height: 110vh;
+  }
+
+  #container-content-header {
+    margin-top: 0rem;
+  }
+
+  #container-content-main {
+    flex-direction: column;
+  }
+
+  #container-frontend-skills, #container-other-skills {
+    width: 90vw;
+  }
+
+  #container-frontend-skills {
+    height: 40vh;
+  }
+
+  #container-other-skills {
+    height: 45vh;
+  }
+
+  #proficiency-bar, #frontend-skill-name {
+    width: 40vw;
+    margin-left: 1.5rem;
+  }
+
+  #other-skill-name {
+    margin-left: 1rem;
+  }
+
+  #container-frontend-content, 
+  #container-other-content {
+    width: 90vw;
+  }
+
+  #container-skill {
+    gap: 0rem;
+    justify-content: start;
+  }
+
+  #other-skill-name {
+    width: 35vw;
+    font-size: calc(0.60rem + 1vmin);
+  }
+
+  /* Contact Section */
+  #section-contact {
+    width: 100vw;
+    height: 40vh;
+    align-items: start;
+  }
+
+  #container-contact-text {
+    margin-top: 4rem;
+  }
+
+  #container-contact-links {
+    width: 90vw;
+    height: 12vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  #container-link-items {
+    width: 85vw;
+    margin-left: 3rem;
+  }
+
+  #contact-icon {
+    width: fit-content;
+    height: 3vh;
+  }
+
+}
+
+@media (width >= 425px) and (width <= 1280px) {
+  #container-social-links {
+    width: 35vw;
+  }
+
+  #other-skill-name {
+    width: 40vw;
+    font-size: calc(0.75rem + 1vmin);
+  }
+
+  #container-link-items {
+    width: 37vh;
+  }
+
+}
+
+@media (width >= 515px) and (width <= 1280px) {
+  #btn-contact {
+    height: 7vh;
+  }
+
+  #proficiency-bar {
+    margin-left: 11vw;
+  }
+
+  #container-contact-links {
+    height: 10vh;
+    flex-direction: row;
+  }
+
+  #container-link-items {
+    margin-left: 0vw;
+    justify-content: center;
+  }
+}
+
+@media (width >= 600px) and (width <= 1280px) {
+
+  #section-skills {
+    height: 120vh;
+  }
+
+  #container-frontend-skills {
+    height: 45vh;
+  }
+
+  #container-other-skills {
+    height: 50vh;
+  }
+
+  #container-link-items {
+    margin-left: 3vh;
+  }
+
+}
+
+@media (width >= 700px) and (width <= 1280px) {
+  #btn-contact {
+    width: 30vw;
+  }
+
+}
+
+@media (width >= 900px) and (width <= 1280px) {
+  #btn-contact {
+    width: 24vw;
+  }
+}
+
+@media (width = 1280px) {
+  #btn-contact {
+    width: 20vw;
+    height: 7vh;
+  }
+}
